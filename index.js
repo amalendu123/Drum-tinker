@@ -1,30 +1,18 @@
-var numberOfDrumButtons = document.querySelectorAll(".drum").length;
+var numberOfDrumButtons = document.querySelectorAll(".image").length;
 
 for (var i = 0; i < numberOfDrumButtons; i++) {
-
-  document.querySelectorAll(".drum")[i].addEventListener("click", function() {
-
+  document.querySelectorAll(".image")[i].addEventListener("click", function() {
     var buttonInnerHTML = this.innerHTML;
-
     makeSound(buttonInnerHTML);
-
-    buttonAnimation(buttonInnerHTML);
-
+    console.log(buttonInnerHTML);
   });
-
 }
 
 document.addEventListener("keypress", function(event) {
-
   makeSound(event.key);
-
-  buttonAnimation(event.key);
-
 });
 
-
 function makeSound(key) {
-
   switch (key) {
     case "w":
       var tom1 = new Audio("sounds/tom-1.mp3");
@@ -61,10 +49,7 @@ function makeSound(key) {
       kick.play();
       break;
 
-
-    default: console.log(key);
-
+    default:
+      console.log("Invalid key");
   }
 }
-
-
