@@ -1,0 +1,22 @@
+html{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+.heading{
+    text-align: center;
+    font-weight:800;
+}
+.key{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+    margin: 10px;
+    height: 100;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+}
