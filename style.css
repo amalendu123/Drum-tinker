@@ -10,13 +10,46 @@ html{
 .key{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+   
+   justify-content: center;
+   
+
+    
 }
-.image{
-    margin: 10px;
-    height: 100;
-    width: 80px;
-    display: flex;
-    flex-direction: column;
+
+.w{
+    background-image: url('images/crash.png');
+    height: 50px;
+    width: 50px;
+}
+.a{
+    background-image: url('images/kick.png');
+    height: 50px;
+    width: 50px;
+}
+.s{
+    background-image: url('images/snare.png');
+    height: 50px;
+    width: 50px;
+}
+.d{
+    background-image: url('images/tom1.png');
+    height: 50px;
+    width: 50px;
+}
+.j{
+    background-image: url('images/tom2.png');
+    height: 50px;
+    width: 50px;
+}
+.k{
+    background-image: url('images/tom3.png');
+    height: 50px;
+    width: 50px;
+}
+.l{
+    background-image: url('images/tom4.png');
+    height: 50px;
+    width: 50px;
 }
